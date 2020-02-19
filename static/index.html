@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Placar</title>
+
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="assets/css/foundation.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+
+  <script src="assets/js/modernizr.foundation.js"></script>
+</head>
+<body>
+
+   <nav class="top-bar">
+      <div class="row">
+        <div class="twelve columns">
+           <h5 class="name">Placar</h5>
+        </div>
+      </div>
+   </nav>
+
+  <div class="row">
+    <div class="twelve columns">
+      <h1>Cubistas</h1>
+      <hr />
+    </div>
+
+    <div class="twelve columns">
+      <table class="twelve table-stripe table-border">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Tempo</th>
+            <th>Cubo utilizado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="paciente">
+            <td class="info-nome">Cubista 1</td>
+            <td class="info-tempo">1:09</td>
+            <td class="info-cubo">Cubo speed</td>
+          </tr>
+          <tr class="paciente">
+            <td class="info-nome">Cubista 2</td>
+            <td class="info-tempo">1:38</td>
+            <td class="info-cubo">Cupo speed</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+   <div class="row">
+      <div class="twelve columns">
+         <h1>Adicionar novo tempo</h1>
+         <hr />
+      </div>
+
+      <div class="twelve columns">
+         <form>
+            <div class="row">
+               <div class="twelve columns">
+                  <label>Nome:</label>
+                  <input id="campo-nome" type="text" placeholder="Digite o nome do 'cubista'" />
+               </div>
+
+               <div class="six columns">
+                  <label>Tempo:</label>
+                  <input id="campo-tempo" type="time" placeholder="Informe o tempo usado para completar o cubo" />
+               </div>
+
+               <div class="six columns">
+                  <label>Cubo utilizado:</label>
+                  <input id="campo-cubo" type="text" placeholder="Qual cubo foi utilizado" />
+               </div>
+            </div>
+
+            <button id="adicionar-tempo" class="button">Adicionar</button>
+         </form>
+      </div>
+   </div>
+
+
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/jquery.foundation.mediaQueryToggle.js"></script>
+  <script src="assets/js/jquery.foundation.forms.js"></script>
+  <script src="assets/js/jquery.foundation.reveal.js"></script>
+  <script src="assets/js/jquery.foundation.orbit.js"></script>
+  <script src="assets/js/jquery.foundation.navigation.js"></script>
+  <script src="assets/js/jquery.foundation.buttons.js"></script>
+  <script src="assets/js/jquery.foundation.tabs.js"></script>
+  <script src="assets/js/jquery.foundation.tooltips.js"></script>
+  <script src="assets/js/jquery.foundation.accordion.js"></script>
+  <script src="assets/js/jquery.placeholder.js"></script>
+  <script src="assets/js/jquery.foundation.alerts.js"></script>
+  <script src="assets/js/jquery.foundation.topbar.js"></script>
+  <script src="assets/js/jquery.foundation.joyride.js"></script>
+  <script src="assets/js/jquery.foundation.clearing.js"></script>
+  <script src="assets/js/jquery.foundation.magellan.js"></script>
+  -->
+
+  <!-- Included JS Files (Compressed) -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/foundation.min.js"></script>
+
+  <!-- Initialize JS Plugins -->
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/percorre.js"></script>
+  <script src="assets/js/calcula-imc.js"></script>
+  <script src="assets/js/imprime-nome.js"></script>
+  <script src="assets/js/adiciona.js"></script>
+
+</body>
+</html>
